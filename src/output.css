@@ -630,6 +630,15 @@ video {
   width: 100%;
 }
 
+.min-w-fit {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
+.min-w-\[inherit\] {
+  min-width: inherit;
+}
+
 .max-w-full {
   max-width: 100%;
 }
